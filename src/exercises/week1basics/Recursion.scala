@@ -1,4 +1,4 @@
-package exercises
+package exercises.week1basics
 
 object Recursion extends App {
   def task1(): Unit = {
@@ -25,7 +25,9 @@ object Recursion extends App {
       }
 
     }
+
     print("is the result")
   }
+
   task1()
 }

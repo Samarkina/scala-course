@@ -38,4 +38,10 @@ object Recursion extends App {
 
   val res = powerOfTwo(32)
   println(res)
+
+  val a: String = "I like,     Scala"
+  val arr = a.split(' ')
+  print(arr(0))
+
+
 }
