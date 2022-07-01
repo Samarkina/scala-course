@@ -1,4 +1,4 @@
-package exercises.week1basics
+package playground
 
 object Recursion extends App {
   def task1(): Unit = {

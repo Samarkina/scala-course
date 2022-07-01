@@ -1,4 +1,4 @@
-package exercises.week1basics
+package playground
 
 object AbstractClass extends App {
   abstract class Event {
@@ -6,8 +6,13 @@ object AbstractClass extends App {
   }
 
   class Listener(val eventName: String, var event: Event) {
-    def register(evt: Event) { event = evt }
-    def sendNotification() { event.trigger(eventName) }
+    def register(evt: Event) {
+      event = evt
+    }
+
+    def sendNotification() {
+      event.trigger(eventName)
+    }
   }
 
   val notification: Listener = new Listener("mousedown", null)

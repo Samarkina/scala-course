@@ -1,4 +1,4 @@
-package exercises.week1basics
+package playground
 
 object ResultOfWeek extends App {
   def reverse_trim_print(input: String): Unit = {
