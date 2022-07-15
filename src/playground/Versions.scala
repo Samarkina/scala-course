@@ -19,6 +19,7 @@ object Versions extends App {
     return 0
 
   }
+
   val compared = compare("2.1", "2.01")
   println(compared)
 
