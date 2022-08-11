@@ -1,6 +1,6 @@
 package lectures.week5
 
-object Implisits extends App {
+object Implicits extends App {
   case class Course(id: Int, title: String)
 
   val courses = List(
